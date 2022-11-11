@@ -1,20 +1,54 @@
 {
-	"name": "server",
-	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"config": "^3.3.8",
-		"dotenv": "^16.0.3",
-		"express": "^4.18.2"
-	},
-	"devDependencies": {
-		"nodemon": "^2.0.20"
-	}
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Ketan Jakhar",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn pretty-quick --staged"
+    }
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --exit-child src/app.ts",
+    "serve": "npm run build && node build/src/app.js",
+    "build": "tsc -p .",
+    "pfix": "prettier --write .",
+    "pcheck": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1209.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "express": "^4.18.2",
+    "husky": "4.3.8",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/config": "^0.0.41",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.11.10",
+    "@types/nodemailer": "^6.4.5",
+    "@types/pdfkit": "^0.12.6",
+    "morgan": "^1.10.0",
+    "ts-node": "10.7.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "4.5.2"
+  }
 }
