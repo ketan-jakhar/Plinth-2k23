@@ -1,0 +1,23 @@
+.HandleContainer{
+    position: absolute;
+    top: 60%;
+    left: 95.7%;
+    background-color: transparent;
+    border-right: 2px solid ;
+    border-image-source: linear-gradient(to bottom, #F07217 0%, #C82222 29.69%, #259ABF 55.73%, #7B1FA7 77.08%, #F37011 100%);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+
+.Handles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90%;
+
+}
+.Youtube{
+    margin-top: 0%;
+}

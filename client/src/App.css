@@ -1,0 +1,10 @@
+html,body{
+    font-size: 190px;
+    margin:0;
+    height:100%;  
+}
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Absolute_Xero"),
+      url("./fonts/Absolute_Xero/Absolute_Xero.ttf") format("truetype");
+  }
