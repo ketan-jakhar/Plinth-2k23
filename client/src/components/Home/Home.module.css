@@ -31,25 +31,22 @@
 .PlinthTitle{
     font-family: Light;
     color:white;
-    font-size: 0.7rem;
+    font-size: 9vw;
     font-weight: 400;
     line-height: 150px;
     letter-spacing: 0.1em;
-    /* text-align: center; */
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
 .PlinthHeading{
     display: flex;
-    flex-direction: row;
-    width: fit-content;
+    height: auto;
 }
 .PlinthYear{
     margin-left: 2%;
     font-family: Light;
     color:transparent;
     -webkit-text-stroke: 5px white;
-    font-size: 0.7rem;
+    font-size: 9vw;
     font-weight: 400;
     line-height: 150px;
     letter-spacing: 0.1em;
@@ -72,7 +69,7 @@
 .PlinthTag{
     font-family: Light;
     color: white;
-    font-size: 20px;
+    font-size:1.2vw;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0.1em;
@@ -84,26 +81,27 @@
 }
 .RegisterButton{
     background-image: url('./mesh-761\ \(1\)\ 13.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Light;
     color: white;
-    font-size: 20px;
+    font-size: 1.25vw;
     font-weight: 200;
     line-height: 23px;
     letter-spacing: 0.1em;
-    background-color: linear-gradient(176.03deg, rgba(124, 228, 197, 0.048) 0.99%, rgba(199, 204, 255, 0.104) 99.35%);
     height: 8%;
-    width: 15%;
+    width: 17%;
     top: 46%;
-    margin-left: 42%;
-    border: 2px solid;
-    border-image-source: linear-gradient(176.03deg, rgba(124, 228, 197, 0.048) 0.99%, rgba(199, 204, 255, 0.104) 99.35%);
+    margin-left: 41.5%;
+    border: 0px;
+    border-radius: 4px;
     position: absolute;
 }
 
 .CountdownHeading{
     font-family: Light;
     color:white;
-    font-size: 20px;
+    font-size: 1.1vw;
     font-weight: 200;
     letter-spacing: 0.1em;
 }

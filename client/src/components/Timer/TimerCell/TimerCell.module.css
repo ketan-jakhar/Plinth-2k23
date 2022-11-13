@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 4%;
+    margin: 5%;
 }
 .TimerCellValue {
-    font-size: 0.14rem;
+    font-size: 2vw;
     font-family: Poppins;
     font-weight: 600;
     line-height: 54px;
@@ -15,5 +15,6 @@
 }
 .TimerCellLabel {
     font-family: 'Light';
-    font-size: 0.05rem;
+    font-size: 0.8vw;
+    font-weight: 300;
 }
