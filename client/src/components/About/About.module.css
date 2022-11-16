@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/absolute-xero');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+.aboutContainer{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: red;
+    margin: 0;
+    font-size: small;
+    background-color: black;
+    background: url('./aboutBack.png') no-repeat;
+    background-size: cover;
+    /* background-image: -webkit-linear-gradient(45deg, #01ed64, #047ae0); */
+}
+
+.aboutDataContainer{
+    width: 50%;
+    min-height: 100vh;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutTitle{
+    font-family: 'Absolute Xero', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.aboutContent{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
