@@ -1,0 +1,41 @@
+.HandleContainer{
+    position: absolute;
+    bottom: 7%;
+    right: 0.8%;
+    background-color: transparent;
+    border-right: 2px solid ;
+    border-image-source: linear-gradient(to bottom, #F07217 0%, #C82222 29.69%, #259ABF 55.73%, #7B1FA7 77.08%, #F37011 100%);
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+}
+
+.Handles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+    width: 100%;
+    height: 100%;
+
+}
+.Youtube{
+    margin-top: 0%;
+}
+.yt{
+    width: 2.06vw;
+    height: 1.5vw;
+}
+.insta{
+    width: 1.7vw;
+    height: 1.7vw;
+}
+.facebook{
+    width: 1.06vw;
+    height: 2.18vw;
+}
+.twitter{
+    width: 2.01vw;
+    height: 1.65vw;
+}

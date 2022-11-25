@@ -1,0 +1,9 @@
+.timerShell {
+    backdrop-filter: blur(10px);
+    width: max-content;
+    display: flex;
+    border: 2px solid;
+    border-image-source: linear-gradient(176.03deg, rgba(124, 228, 197, 0.048) 0.99%, rgba(199, 204, 255, 0.104) 99.35%);
+    padding: 10px;
+    margin: 5%;
+}
