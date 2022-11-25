@@ -14,10 +14,11 @@ export const useTimer = (futureDate) => {
         };
     }, [futureDate]);
 
-    let { days, hours, minutes, seconds } = intervalToDuration({
+    let {months,days, hours, minutes, seconds } = intervalToDuration({
         start: now,
         end: futureDate
     });
+    days+=months/2*30+months/2*31;
 
     return { days, hours, minutes, seconds };
 };

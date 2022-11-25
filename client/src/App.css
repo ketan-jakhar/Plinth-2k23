@@ -3,6 +3,16 @@ html,body{
     margin:0;
     height:100%;  
 }
+.App{
+    width: 100px;
+    height: 100px;
+    background-image: -webkit-radial-gradient(#93F9B9, #1D976C);
+    background-image: radial-gradient(#93F9B9, #1D976C);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 @font-face {
     font-family: "Light";   /*Can be any text*/
     src: local("Absolute_Xero"),

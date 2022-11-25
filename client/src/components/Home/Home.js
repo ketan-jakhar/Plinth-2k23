@@ -1,15 +1,12 @@
 import React from 'react'
-import { add } from 'date-fns';
 import {Countdown} from '../Timer/Countdown/Countdown.js'
 import {Handles} from '../PlinthHandlesSection/Handles.js'
 import styles from './Home.module.css'
 import '../../fonts/Absolute_Xero/Absolute_Xero.ttf'
+import { WalterWhite } from '../WalterWhite/WalterWhite.js'
+
 function Home() {
-    const futureDate = add(new Date(), {
-        days: 6,
-        hours: 22,
-        minutes: 40
-      });
+    const futureDate = new Date(2023,0,27)
     return (
         <>
         <div className={`${styles.homeContainer}`}>
@@ -36,6 +33,7 @@ function Home() {
                 </div>
             </div>
             <Handles/>
+                <WalterWhite/>
         </div>
         </>
     )

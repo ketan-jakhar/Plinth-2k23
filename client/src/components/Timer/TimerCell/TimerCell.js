@@ -1,5 +1,5 @@
 import styles from './TimerCell.module.css';
-
+import React from 'react';
 export const TimerCell = ({ label, value }) => {
     const formattedValue = value < 10 ? `0${value}`: value.toString();
 
