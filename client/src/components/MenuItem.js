@@ -24,7 +24,8 @@ const MenuItem = (props) => {
       >
         <div className="menu-icon">
         
-        <i class={Icon}></i>
+        {/* <i class={Icon}></i> */}
+        <Icon />
    
         </div>
         <span>{name}</span>
